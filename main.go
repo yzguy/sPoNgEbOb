@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(sPoNgEbOb(input))
 }
 
-func sPoNgEbOb(input string) (output string) {
+func sPoNgEbOb(input string) string {
 	for i, v := range input {
 		s := string(v)
 		if i%2 == 0 {
@@ -24,5 +24,5 @@ func sPoNgEbOb(input string) (output string) {
 		}
 	}
 
-	return
+	return output
 }
