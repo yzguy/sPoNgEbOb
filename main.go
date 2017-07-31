@@ -6,15 +6,16 @@ import (
 	"strings"
 )
 
-var (
-	input = os.Args[1]
-)
-
 func main() {
-	fmt.Println(sPoNgEbOb(input))
+	if len(os.Args) > 1 {
+		input := os.Args[1]
+
+		fmt.Println(SpOnGeBoB(input))
+	}
 }
 
-func sPoNgEbOb(input string) (output string) {
+// SpOnGeBoB formats a string in a very mocking way
+func SpOnGeBoB(input string) (output string) {
 	for i, v := range input {
 		s := string(v)
 		if i%2 == 0 {
