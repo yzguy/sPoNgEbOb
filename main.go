@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if len(os.Args) > 1 {
-		input := os.Args[1]
+		input := strings.Join(os.Args[1:], " ")
 
 		fmt.Println(SpOnGeBoB(input))
 	}
