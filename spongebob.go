@@ -1,18 +1,6 @@
-package main
+package sPoNgEbOb
 
-import (
-	"fmt"
-	"os"
-	"strings"
-)
-
-func main() {
-	if len(os.Args) > 1 {
-		input := strings.Join(os.Args[1:], " ")
-
-		fmt.Println(SpOnGeBoB(input))
-	}
-}
+import "strings"
 
 // SpOnGeBoB formats a string in a very mocking way
 func SpOnGeBoB(input string) (output string) {
