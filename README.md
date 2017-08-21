@@ -2,7 +2,7 @@
 
 ## Installation
 
-`go get github.com/yzguy/sPoNgEbOb`
+`go get -u github.com/yzguy/sPoNgEbOb/...`
 
 ## Usage
 
