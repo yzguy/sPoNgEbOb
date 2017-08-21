@@ -2,8 +2,8 @@ package sPoNgEbOb
 
 import "strings"
 
-// SpOnGeBoB formats a string in a very mocking way
-func SpOnGeBoB(input string) (output string) {
+// Mock formats a string in a very mocking way
+func Mock(input string) (output string) {
 	for i, v := range input {
 		s := string(v)
 		if i%2 == 0 {

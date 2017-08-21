@@ -2,12 +2,12 @@ package sPoNgEbOb
 
 import "testing"
 
-func TestSpOnGeBoB(t *testing.T) {
+func TestMock(t *testing.T) {
 	given := "Hello World"
 	expected := "hElLo wOrLd"
-	got := SpOnGeBoB(given)
+	got := Mock(given)
 
 	if got != "hElLo wOrLd" {
-		t.Errorf("oUtPuT WaS InCoRrEcT, gOt %s, wAnT: %s", got, expected)
+		t.Errorf("oUtPuT WaS InCoRrEcT, gOt %s, eXpEcTeD: %s", got, expected)
 	}
 }
