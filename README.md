@@ -4,7 +4,15 @@
 
 `go get -u github.com/yzguy/sPoNgEbOb/...`
 
-## Usage
+Importing as a package
+
+```
+import (
+    sb "github.com/yzguy/sPoNgEbOb"
+)
+```
+
+## Command Usage
 
 ```
 -> sPoNgEbOb why are you mocking me
