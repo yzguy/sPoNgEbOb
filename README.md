@@ -7,7 +7,7 @@
 ## Usage
 
 ```
--> sPoNgEbOb "why are you mocking me"
+-> sPoNgEbOb why are you mocking me
 wHy aRe yOu mOcKiNg mE
 ```
 
