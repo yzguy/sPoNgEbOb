@@ -15,7 +15,7 @@ import (
 ## Command Usage
 
 ```
--> sPoNgEbOb why are you mocking me
+-> echo "why are you mocking me" | sPoNgEbOb
 wHy aRe yOu mOcKiNg mE
 ```
 
@@ -24,7 +24,3 @@ wHy aRe yOu mOcKiNg mE
 Tests can be run by the following command
 
 `go test`
-
-## TODO
-
-* Read from STDIN rather than ARGV
