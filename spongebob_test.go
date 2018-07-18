@@ -7,7 +7,7 @@ func TestMock(t *testing.T) {
 	expected := "hElLo wOrLd"
 	got := Mock(given)
 
-	if got != "hElLo wOrLd" {
+	if got != expected {
 		t.Errorf("oUtPuT WaS InCoRrEcT, gOt %s, eXpEcTeD: %s", got, expected)
 	}
 }
